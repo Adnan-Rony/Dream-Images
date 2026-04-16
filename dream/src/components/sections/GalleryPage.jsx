@@ -2,7 +2,7 @@ import { useState } from "react";
 import { GALLERY_IMAGES, GALLERY_CATEGORIES } from "../../data/gallery.js";
 import Lightbox from "../ui/Lightbox.jsx";
 
-const ITEMS_PER_PAGE = 9;
+const ITEMS_PER_PAGE = 6;
 
 export default function GalleryPage() {
   const [activeFilter, setActiveFilter] = useState("all");

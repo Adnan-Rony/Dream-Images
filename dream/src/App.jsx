@@ -25,7 +25,7 @@ export default function App() {
         <Gallery />
         <Packages />
         <Process />
-        <Awards />
+        {/* <Awards /> */}
         <Testimonials />
         <FeaturedClients />
         <InstagramFeed />

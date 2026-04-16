@@ -9,7 +9,7 @@ export default function About() {
           <div className="relative">
             <div className="absolute -inset-8 border border-[#D4AF37]/30 rounded-xl" />
             <img
-              src="https://images.unsplash.com/photo-1554048612-b6a482bc67e5?w=800&q=80"
+              src="https://i.ibb.co.com/9HgZYpkj/476191135-1345010133479845-3189441927015777337-n.jpg"
               alt="Kayem Islam - Photographer"
               className="relative w-full h-auto rounded-xl grayscale-[0.25] object-cover"
             />
@@ -25,7 +25,7 @@ export default function About() {
             <div className="mt-10 space-y-8 text-lg leading-relaxed text-white/75">
               <p>
                 I'm <span className="text-white font-medium">Kayem Islam</span>, a professional photographer based in Dhaka, Bangladesh. 
-                With over 8 years of experience, I specialize in capturing the raw emotion of weddings, portraits, and events.
+                With over 4 years of experience, I specialize in capturing the raw emotion of weddings, portraits, and events.
               </p>
               
               <p>

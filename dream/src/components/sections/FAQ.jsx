@@ -1,3 +1,4 @@
+// src/components/sections/FAQ.jsx
 import { useState } from 'react';
 import SectionHeader from '../common/SectionHeader';
 
@@ -50,40 +51,41 @@ export default function FAQ() {
   const toggle = (i) => setOpenIndex(openIndex === i ? null : i);
 
   return (
-    <section id="faq" className="py-28 bg-white">
+    <section id="faq" className="py-12 bg-[#0F0F0F] text-white">
       <div className="max-w-4xl mx-auto px-6">
         <SectionHeader
           eyebrow="Got Questions?"
           title="Frequently Asked Questions"
           subtitle="Everything you need to know before booking. Still have questions? Just message us."
+          dark
         />
 
-        <div className="mt-12 space-y-3">
+        <div className="mt-12 space-y-4">
           {FAQS.map((faq, i) => (
             <div
               key={i}
-              className={`border transition-all duration-300 ${
+              className={`border transition-all duration-300 rounded-2xl overflow-hidden ${
                 openIndex === i
-                  ? "border-[#D4AF37] bg-[#FFFDF7]"
-                  : "border-[#E5D9C0] bg-white hover:border-[#D4AF37]/50"
+                  ? "border-[#D4AF37] bg-[#1A1A1A]"
+                  : "border-white/10 bg-[#1A1A1A] hover:border-white/30"
               }`}
             >
               <button
                 onClick={() => toggle(i)}
-                className="w-full flex items-center justify-between px-8 py-6 text-left gap-4"
+                className="w-full flex items-center justify-between px-8 py-7 text-left gap-6 hover:bg-white/5 transition-colors"
               >
                 <span
-                  className={`font-serif text-lg font-light transition-colors ${
-                    openIndex === i ? "text-[#B8860B]" : "text-[#1A1A1A]"
+                  className={`font-serif text-lg font-light transition-colors flex-1 ${
+                    openIndex === i ? "text-[#D4AF37]" : "text-white"
                   }`}
                 >
                   {faq.q}
                 </span>
                 <span
-                  className={`flex-shrink-0 w-8 h-8 rounded-full border flex items-center justify-center text-sm transition-all duration-300 ${
+                  className={`flex-shrink-0 w-9 h-9 rounded-full border flex items-center justify-center text-xl transition-all duration-300 ${
                     openIndex === i
-                      ? "bg-[#D4AF37] border-[#D4AF37] text-white rotate-45"
-                      : "border-[#D4AF37]/50 text-[#B8860B]"
+                      ? "bg-[#D4AF37] border-[#D4AF37] text-[#1A1A1A] rotate-45"
+                      : "border-white/30 text-white hover:border-white/60"
                   }`}
                 >
                   +
@@ -91,30 +93,35 @@ export default function FAQ() {
               </button>
 
               <div
-                className={`overflow-hidden transition-all duration-500 ease-in-out ${
-                  openIndex === i ? "max-h-48 opacity-100" : "max-h-0 opacity-0"
+                className={`overflow-hidden transition-all duration-500 ease-in-out px-8 ${
+                  openIndex === i ? "max-h-60 pb-8 opacity-100" : "max-h-0 opacity-0"
                 }`}
               >
-                <p className="px-8 pb-7 text-[#5A5A5A] leading-relaxed">{faq.a}</p>
+                <p className="text-white/70 leading-relaxed text-[15px]">
+                  {faq.a}
+                </p>
               </div>
             </div>
           ))}
         </div>
 
-        {/* CTA Below FAQ */}
-        <div className="mt-16 text-center bg-[#1A1A1A] py-12 px-8">
+        {/* CTA Below FAQ - Enhanced */}
+        <div className="mt-20 text-center bg-[#1A1A1A] border border-white/10 rounded-3xl py-16 px-10">
           <p className="text-white/60 text-sm uppercase tracking-[0.3em] mb-4">Still have questions?</p>
-          <h3 className="font-serif text-3xl text-white font-light mb-6">
+          <h3 className="font-serif text-4xl text-white font-light mb-6 leading-tight">
             We're here to help you
           </h3>
           <a
-            href={`https://wa.me/8801747430447?text=${encodeURIComponent("Hi Kayem, I have a question about your photography services.")}`}
+            href={`https://wa.me/+8801880719315?text=${encodeURIComponent("Hi Kayem, I have a question about your photography services.")}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#1DA851] text-white px-10 py-4 text-sm tracking-widest transition-all duration-300"
+            className="inline-flex items-center gap-4 bg-[#25D366] hover:bg-[#1DA851] text-white px-12 py-5 rounded-2xl text-sm tracking-widest font-medium transition-all duration-300 active:scale-95"
           >
             💬 ASK ON WHATSAPP
           </a>
+          <p className="text-white/40 text-xs mt-6 tracking-widest">
+            Usually replies within minutes • Mon–Sat, 9AM–8PM
+          </p>
         </div>
       </div>
     </section>

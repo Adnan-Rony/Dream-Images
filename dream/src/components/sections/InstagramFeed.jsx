@@ -1,77 +1,14 @@
+import { INSTAGRAM_POSTS } from '../../data/instagram.js';
 import SectionHeader from '../common/SectionHeader';
 
-const INSTAGRAM_POSTS = [
-  {
-    id: 1,
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80",
-    likes: "1.2K",
-    caption: "Golden hour wedding magic ✨",
-    tags: ["#weddingphotography", "#dhaka"],
-  },
-  {
-    id: 2,
-    image: "https://images.unsplash.com/photo-1506863530036-1efeddceb993?w=600&q=80",
-    likes: "876",
-    caption: "The portrait that speaks",
-    tags: ["#portrait", "#naturallight"],
-  },
-  {
-    id: 3,
-    image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&q=80",
-    likes: "2.1K",
-    caption: "A moment frozen in time 💍",
-    tags: ["#engagement", "#love"],
-  },
-  {
-    id: 4,
-    image: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=600&q=80",
-    likes: "654",
-    caption: "Family is everything",
-    tags: ["#family", "#lifestyle"],
-  },
-  {
-    id: 5,
-    image: "https://images.unsplash.com/photo-1591604021695-0c69b7c05981?w=600&q=80",
-    likes: "1.8K",
-    caption: "Candid joy, unfiltered",
-    tags: ["#candid", "#wedding"],
-  },
-  {
-    id: 6,
-    image: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&q=80",
-    likes: "943",
-    caption: "Sunset ceremonies 🌅",
-    tags: ["#sunset", "#ceremony"],
-  },
-  {
-    id: 7,
-    image: "https://images.unsplash.com/photo-1524863479829-916d8e77f114?w=600&q=80",
-    likes: "1.1K",
-    caption: "Emotions captured forever",
-    tags: ["#emotional", "#real"],
-  },
-  {
-    id: 8,
-    image: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600&q=80",
-    likes: "2.4K",
-    caption: "Bridal beauty, timeless grace",
-    tags: ["#bride", "#bridal"],
-  },
-  {
-    id: 9,
-    image: "https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?w=600&q=80",
-    likes: "788",
-    caption: "Love in every frame",
-    tags: ["#loveshots", "#couple"],
-  },
-];
+
 
 export default function InstagramFeed() {
   const IG_HANDLE = "@dreamimage.bd";
-  const IG_URL = "https://instagram.com/dreamimage.bd";
+  const IG_URL = "https://www.instagram.com/dream_images.bd";
 
   return (
-    <section id="instagram" className="py-28 bg-[#1A1A1A] overflow-hidden">
+    <section id="instagram" className="py-12 bg-[#1A1A1A] overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="flex flex-col md:flex-row items-center justify-between mb-16 gap-6">

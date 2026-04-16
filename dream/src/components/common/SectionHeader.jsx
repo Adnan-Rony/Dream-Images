@@ -6,11 +6,11 @@ export default function SectionHeader({ eyebrow, title, subtitle, dark = false }
           {eyebrow}
         </p>
       )}
-      <h2 className={`font-serif text-5xl md:text-6xl font-light mt-4 leading-none ${dark ? 'text-white' : 'text-[#1A1A1A]'}`}>
+      <h2 className={`font-serif text-5xl md:text-6xl font-light mt-4 leading-none ${dark ? 'text-white' : 'text-white'}`}>
         {title}
       </h2>
       {subtitle && (
-        <p className={`mt-6 max-w-md mx-auto ${dark ? 'text-white/50' : 'text-[#5A5A5A]'}`}>
+        <p className={`mt-6 max-w-md mx-auto ${dark ? 'text-white/50' : 'text-white'}`}>
           {subtitle}
         </p>
       )}
