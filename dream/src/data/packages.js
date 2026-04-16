@@ -5,7 +5,7 @@ export const PACKAGES = [
     price: "৳8,000",
     icon: "✦",
     features: ["4 Hours Coverage", "100 Edited Photos", "1 Photographer", "Online Gallery", "Basic Retouching"],
-    whatsapp: "+8801880-719315",
+    whatsapp: "+8801880719315",
     popular: false,
   },
   {
@@ -14,7 +14,7 @@ export const PACKAGES = [
     price: "৳15,000",
     icon: "✦✦",
     features: ["8 Hours Coverage", "300 Edited Photos", "2 Photographers", "Online Gallery", "Advanced Retouching", "1 Printed Album"],
-    whatsapp: "+8801880-719315",
+    whatsapp: "+8801880719315",
     popular: true,
   },
   {
@@ -23,7 +23,7 @@ export const PACKAGES = [
     price: "৳25,000",
     icon: "✦✦✦",
     features: ["Full Day Coverage", "500+ Edited Photos", "2 Photographers + Videographer", "Online Gallery", "Premium Retouching", "2 Printed Albums", "Drone Shots"],
-    whatsapp: "+8801880-719315",
+    whatsapp: "+8801880719315",
     popular: false,
   },
 ];

@@ -37,7 +37,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href={`https://wa.me/8801747430447`}
+                href={`https://wa.me/+8801880719315`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 border border-white/20 flex items-center justify-center hover:border-[#25D366] hover:text-[#25D366] transition-all text-sm"
@@ -70,15 +70,15 @@ export default function Footer() {
             <ul className="space-y-4 text-sm">
               <li className="flex gap-3">
                 <span className="text-[#D4AF37]">📍</span>
-                <span>Dhaka, Bangladesh</span>
+                <span>Savar,Dhaka, Bangladesh</span>
               </li>
               <li className="flex gap-3">
                 <span className="text-[#D4AF37]">📞</span>
-                <a href="tel:+8801747430447" className="hover:text-[#D4AF37] transition-colors">+880 1747-430447</a>
+                <a href="tel:+8801880719315" className="hover:text-[#D4AF37] transition-colors">+8801880719315</a>
               </li>
               <li className="flex gap-3">
                 <span className="text-[#D4AF37]">✉️</span>
-                <a href="mailto:dreamimage@gmail.com" className="hover:text-[#D4AF37] transition-colors">dreamimage@gmail.com</a>
+                <a href="mailto:dreamimages47@gmail.com" className="hover:text-[#D4AF37] transition-colors">dreamimages47@gmail.com</a>
               </li>
               <li className="flex gap-3">
                 <span className="text-[#D4AF37]">⏰</span>
@@ -88,8 +88,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/25">
-          <p>Photography by Kayem Islam • Dhaka, Bangladesh</p>
+        <div className="pt-2 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/25">
+          <p>Develop by Adnan Rony</p>
           <p>© {new Date().getFullYear()} Dream Image. All rights reserved.</p>
         </div>
       </div>
