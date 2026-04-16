@@ -41,7 +41,7 @@ export default function GalleryPage() {
   };
 
   return (
-    <section className="bg-[#0F0F0F] text-white min-h-screen py-20">
+    <section id="gallery" className="bg-[#0F0F0F] text-white min-h-screen py-20">
       <div className="max-w-7xl mx-auto px-6">
         <h1 className="text-5xl font-serif text-center mb-12">Full Gallery</h1>
 
