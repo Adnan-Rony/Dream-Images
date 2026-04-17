@@ -1,7 +1,7 @@
+// src/context/AuthContext.jsx
 import { createContext, useContext, useState } from "react";
 
-
-const ADMIN_PASSWORD = import.meta.env.ADMIN_PASSWORD;
+const ADMIN_PASSWORD = import.meta.env.VITE_ADMIN_PASSWORD;
 
 const AuthContext = createContext(null);
 
@@ -11,6 +11,11 @@ export function AuthProvider({ children }) {
   });
 
   const login = (password) => {
+    if (!ADMIN_PASSWORD) {
+      console.error("ADMIN_PASSWORD is not defined in .env file");
+      return false;
+    }
+
     if (password === ADMIN_PASSWORD) {
       sessionStorage.setItem("kayem_admin", "true");
       setIsAdmin(true);
@@ -32,5 +37,9 @@ export function AuthProvider({ children }) {
 }
 
 export function useAuth() {
-  return useContext(AuthContext);
+  const context = useContext(AuthContext);
+  if (!context) {
+    throw new Error("useAuth must be used within an AuthProvider");
+  }
+  return context;
 }
