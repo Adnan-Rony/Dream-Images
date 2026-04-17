@@ -6,7 +6,7 @@ export default function SectionHeader({ eyebrow, title, subtitle, dark = false }
           {eyebrow}
         </p>
       )}
-      <h2 className={`font-serif text-5xl md:text-6xl font-light mt-4 leading-none ${dark ? 'text-white' : 'text-white'}`}>
+      <h2 className={`font-serif lg:text-5xl text-3xl md:text-6xl font-light mt-4 leading-none ${dark ? 'text-white' : 'text-white'}`}>
         {title}
       </h2>
       {subtitle && (

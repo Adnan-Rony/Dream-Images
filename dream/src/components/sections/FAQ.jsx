@@ -106,7 +106,7 @@ export default function FAQ() {
         </div>
 
         {/* CTA Below FAQ - Enhanced */}
-        <div className="mt-20 text-center bg-[#1A1A1A] border border-white/10 rounded-3xl py-16 px-10">
+        {/* <div className="mt-20 text-center bg-[#1A1A1A] border border-white/10 rounded-3xl py-16 px-10">
           <p className="text-white/60 text-sm uppercase tracking-[0.3em] mb-4">Still have questions?</p>
           <h3 className="font-serif text-4xl text-white font-light mb-6 leading-tight">
             We're here to help you
@@ -122,7 +122,7 @@ export default function FAQ() {
           <p className="text-white/40 text-xs mt-6 tracking-widest">
             Usually replies within minutes • Mon–Sat, 9AM–8PM
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

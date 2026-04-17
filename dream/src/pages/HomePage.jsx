@@ -21,7 +21,7 @@ export default function HomePage() {
       <About />
       <Packages />
       <Services />
-      <Process/>
+      {/* <Process/> */}
       <Testimonials />
       <FeaturedClients />
       <InstagramFeed />

@@ -15,17 +15,22 @@ const SLIDES = [
   },
   {
     id: 3,
-    image: "https://i.ibb.co.com/jkkz61b2/583127816-868644839023377-8147917408246072475-n.jpg",
+    image: "https://res.cloudinary.com/dnpycgwch/image/upload/v1776422683/sg6e0qvylwxab6fin8qd.jpg",
     alt: "Golden Hour Couple",
   },
   {
     id: 4,
-    image: "https://i.ibb.co.com/8gtPVRNR/481512915-667469695807560-9208120819402486446-n.jpg",
+    image: "https://res.cloudinary.com/dnpycgwch/image/upload/v1776406352/tgu0ujamdtlfkkonqqfa.jpg",
     alt: "Romantic Wedding Moment",
   },
   {
     id: 5,
-    image: "https://i.ibb.co.com/r2BxJpjf/583189640-868641755690352-3418506960038731375-n.jpg",
+    image: "https://res.cloudinary.com/dnpycgwch/image/upload/v1776422687/mns0l099t6rrjxjxnu6x.jpg",
+    alt: "Elegant Wedding Ceremony",
+  },
+  {
+    id: 6,
+    image: "https://res.cloudinary.com/dnpycgwch/image/upload/v1776422690/lvpsxrx2xo2m6c2bmajm.jpg",
     alt: "Elegant Wedding Ceremony",
   },
 ];

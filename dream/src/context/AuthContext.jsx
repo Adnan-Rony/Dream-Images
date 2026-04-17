@@ -1,7 +1,7 @@
 import { createContext, useContext, useState } from "react";
 
 
-const ADMIN_PASSWORD = "kayem@admin";
+const ADMIN_PASSWORD = import.meta.env.ADMIN_PASSWORD;
 
 const AuthContext = createContext(null);
 

@@ -141,9 +141,7 @@ ${formData.message}`;
                   CHAT WITH KAYEM ON WHATSAPP
                 </span>
 
-                <span className="relative z-10 text-lg transition-all duration-300 group-hover:translate-x-2">
-                  →
-                </span>
+                
               </button>
 
               <p className="text-center text-xs text-[#9A9A9A] mt-4 tracking-widest">
