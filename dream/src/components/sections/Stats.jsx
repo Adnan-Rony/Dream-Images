@@ -1,6 +1,6 @@
 export default function Stats() {
   const stats = [
-    { num: "500+", label: "Happy Clients" },
+    { num: "1200+", label: "Happy Clients" },
     { num: "120+", label: "Sessions Done" },
     { num: "4+", label: "Years Experience" },
     { num: "20K+", label: "Photos Delivered" },

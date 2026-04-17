@@ -16,6 +16,8 @@ import Footer from "./components/layout/Footer";
 import VideographySection from "./components/sections/VideographySection.jsx";
 import HeroCarousel from "./components/sections/HeroUpdate.jsx";
 
+
+
 export default function App() {
   return (
     <>
@@ -26,11 +28,12 @@ export default function App() {
         <Stats />
         <Gallery />
         <About />
+        <Packages />
         <Services />
-
+   
         {/* <VideographySection /> */}
 
-        <Packages />
+     
         <Process />
         {/* <Awards /> */}
         <Testimonials />
