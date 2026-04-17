@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router";
 
 const NAV_LINKS = [
   { label: "Home", id: "home" },
@@ -47,12 +48,14 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
 
           {/* LOGO */}
+          <Link to="/">
           <button
             onClick={() => scrollTo("home")}
             className="text-2xl sm:text-3xl font-light tracking-[0.08em] font-serif text-white z-50 relative"
           >
             Dream <span className="italic text-[#D4AF37]">Image</span>
           </button>
+          </Link>
 
           {/* DESKTOP NAV */}
           <ul className="hidden lg:flex items-center gap-6 xl:gap-8 text-xs uppercase tracking-widest">
