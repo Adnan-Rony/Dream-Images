@@ -35,7 +35,7 @@ export default function Gallery() {
   const displayImages = filteredImages.slice(0, HOME_LIMIT);
 
   return (
-    <section className="bg-[#0F0F0F] text-white py-20">
+    <section id="gallery" className="bg-[#0F0F0F] text-white py-20">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="mb-10">

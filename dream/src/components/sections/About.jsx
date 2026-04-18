@@ -46,7 +46,7 @@ export default function About() {
             
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img
-                src="https://i.ibb.co.com/fVyGxvYC/491238030-1401881314459393-6131981177170629525-n.jpg"
+                src="https://res.cloudinary.com/dnpycgwch/image/upload/v1776450532/491238030_1401881314459393_6131981177170629525_n_rtfvds.jpg"
                 alt="Kayem Islam - Photographer"
                 className="w-full h-auto aspect-[4/3] md:aspect-square object-cover 
                            transition-all duration-700 group-hover:scale-105 grayscale-[0.15]"
